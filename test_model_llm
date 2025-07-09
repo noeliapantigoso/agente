@@ -1,0 +1,6 @@
+from langchain_ollama import ChatOllama
+
+llm = ChatOllama(model="tinyllama:1.1b-chat", base_url="http://localhost:11434")
+
+resp = llm.invoke("Dime un dato curioso")
+print(resp.content)
