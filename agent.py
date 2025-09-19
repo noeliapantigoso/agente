@@ -7,7 +7,7 @@ PERSONALITY = (
     "Validas emociones y, si detectas angustia, das consejos de forma breve."
 )
 
-# Modelo local (TinyLlama ejecutándose vía Ollama en localhost)
+# Modelo local (llama3:8b ejecutándose vía Ollama en localhost)
 llm = ChatOllama(
     model="llama3:8b",
     base_url="http://localhost:11434",
